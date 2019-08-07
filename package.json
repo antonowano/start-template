@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "normalize.css": "^8.0.1"
+  },
+  "dependencies": {
+    "inputmask": "^4.0.8",
+    "jquery": "^3.4.1"
+  }
+}

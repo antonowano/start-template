@@ -1,0 +1,14 @@
+@mixin screen() {
+    min-width: $min-screen;
+    max-width: $max-screen;
+    margin: 0 auto;
+}
+
+@mixin screen-bg($url, $position-x: center, $position-y: center, $repeat: no-repeat) {
+    @include screen();
+    background: {
+        image: url($url);
+        repeat: $repeat;
+        position: $position-x $position-y;
+    }
+}

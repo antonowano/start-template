@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'Roboto';
+    font-display: swap;
+    src: url('../fonts/Roboto-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-display: swap;
+    src: url('../fonts/Roboto-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+// @font-face {
+//     font-family: 'Roboto';
+//     font-display: swap;
+//     src: url('../fonts/Roboto-Extra-Light.ttf') format('truetype');
+//     font-weight: 200;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'Roboto';
+//     font-display: swap;
+//     src: url('../fonts/Roboto-Extra-LightItalic.ttf') format('truetype');
+//     font-weight: 200;
+//     font-style: italic;
+// }
+
+@font-face {
+    font-family: 'Roboto';
+    font-display: swap;
+    src: url('../fonts/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-display: swap;
+    src: url('../fonts/Roboto-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-display: swap;
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-display: swap;
+    src: url('../fonts/Roboto-RegularItalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-display: swap;
+    src: url('../fonts/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-display: swap;
+    src: url('../fonts/Roboto-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+// @font-face {
+//     font-family: 'Roboto';
+//     font-display: swap;
+//     src: url('../fonts/Roboto-Semibold.ttf') format('truetype');
+//     font-weight: 600;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'Roboto';
+//     font-display: swap;
+//     src: url('../fonts/Roboto-SemiboldItalic.ttf') format('truetype');
+//     font-weight: 600;
+//     font-style: italic;
+// }
+
+@font-face {
+    font-family: 'Roboto';
+    font-display: swap;
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    font-display: swap;
+    src: url('../fonts/Roboto-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+// @font-face {
+//     font-family: 'Roboto';
+//     font-display: swap;
+//     src: url('../fonts/Roboto-Extra-Bold.otf') format('opentype');
+//     font-weight: 800;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'Roboto';
+//     font-display: swap;
+//     src: url('../fonts/Roboto-Extra-BoldItalic.otf') format('opentype');
+//     font-weight: 800;
+//     font-style: italic;
+// }
+
+@font-face {
+    font-family: 'Roboto';
+    font-display: swap;
+    src: url('../fonts/Roboto-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-display: swap;
+    src: url('../fonts/Roboto-BlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: $color-white;
+    color: $color-black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+h1, .h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+h2, .h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+
+h3, .h3 {
+    font-weight: bold;
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+
+h4, .h4 {
+    font-weight: bold;
+    font-size: 1.17em;
+    margin: 1.33em 0;
+}
+
+h5, .h5 {
+    font-weight: bold;
+    font-size: 0.83em;
+    margin: 1.67em 0;
+}
+
+h6, .h6 {
+    font-weight: bold;
+    font-size: 0.67em;
+    margin: 2.33em 0;
+}
+
+a {
+    color: $color-primary-light;
+    transition: $transition;
+    &:hover, &:focus {
+        color: $color-primary;
+    }
+}

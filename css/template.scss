@@ -1,0 +1,29 @@
+/* Setting */
+@import 'variables';
+@import 'mixins';
+@import 'typo';
+
+/* Vendors */
+@import '../node_modules/normalize.css/normalize.css';
+
+/* Components */
+@import 'components/breadcrumb';
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    > header {
+        flex: 0;
+    }
+    > main {
+        flex: 1;
+    }
+    > footer {
+        flex: 0;
+    }
+}
