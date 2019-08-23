@@ -1,0 +1,65 @@
+/* Modal window */
+.callback-modal {
+    background: #fff;
+    color: #000;
+    max-width: 500px;
+    margin: auto;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+}
+.callback-modal__headline {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.callback-modal__name {
+    margin-bottom: 10px;
+    width: 100%;
+}
+.callback-modal__email {
+    margin-bottom: 10px;
+    width: 100%;
+}
+.callback-modal__phone {
+    margin-bottom: 10px;
+    width: 100%;
+}
+.callback-modal__concert-label {
+    margin-bottom: 10px;
+    display: block;
+}
+.callback-modal__btn {
+
+}
+/* Message */
+.callback-modal-message {
+    max-width: 350px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+}
+.callback-modal-message__process {
+    background: url('../images/loading.gif') no-repeat center 15px;
+    background-size: 50px;
+    padding-top: 80px;
+    display: block;
+    text-align: center;
+}
+.callback-modal-message__success {
+    background: url('../images/success.png') no-repeat center 15px;
+    background-size: 50px;
+    padding-top: 80px;
+    display: block;
+    text-align: center;
+}
+.callback-modal-message__error {
+    background: url('../images/error.png') no-repeat center 15px;
+    background-size: 50px;
+    padding-top: 80px;
+    display: block;
+    text-align: center;
+}
+

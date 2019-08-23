@@ -1,14 +1,20 @@
 /* Setting */
+
 @import 'variables';
 @import 'mixins';
-@import 'typo';
 
 /* Vendors */
-@import '../node_modules/normalize.css/normalize.css';
+
+@import '../node_modules/normalize.scss/normalize';
+@import '../node_modules/slick-carousel/slick/slick';
+@import '../node_modules/magnific-popup/src/css/main';
 
 /* Components */
-@import 'components/breadcrumb';
 
+@import 'components/typo';
+@import 'components/breadcrumb';
+@import 'components/button';
+@import 'components/checkbox';
 
 html, body {
     height: 100%;
@@ -17,13 +23,13 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    > header {
+    >header {
         flex: 0;
     }
-    > main {
+    >main {
         flex: 1;
     }
-    > footer {
+    >footer {
         flex: 0;
     }
 }

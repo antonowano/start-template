@@ -1,0 +1,22 @@
+.c-checkbox {
+    input {
+        position: absolute;
+        opacity: 0;
+    }
+    label:before {
+        content: '';
+        width: 17px;
+        height: 17px;
+        display: inline-block;
+        background: none;
+        border: 1px solid $color-checkbox;
+        vertical-align: middle;
+        margin-right: 5px;
+        color: $color-checkbox;
+        text-align: center;
+        font-size: 17px;
+    }
+    input:checked ~ label:before {
+        content: '\2713';
+    }
+}

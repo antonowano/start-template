@@ -5,17 +5,35 @@ $max-screen: 1920px;
 
 /* Colors */
 
+$color-black: #000;
+$color-white: #fff;
+
 $color-accent: #B78646;
 $color-accent-light: #D0C88A;
 $color-accent-dark: #807941;
 $color-accent-bg: #E8E7E1;
+$color-accent-text: $color-white;
 
 $color-primary: #015325;
 $color-primary-light: #088D30;
 $color-primary-dark: #01281E;
+$color-primary-text: $color-white;
 
-$color-black: #000;
-$color-white: #fff;
+/* Checkbox */
+
+$color-checkbox: $color-primary;
+
+/* Button */
+
+$color-button-primary: $color-primary;
+$color-button-primary-text: $color-primary-text;
+$color-button-primary-hover: $color-primary-light;
+$color-button-primary-hover-text: $color-primary-text;
+
+$color-button-accent: $color-accent;
+$color-button-accent-text: $color-accent-text;
+$color-button-accent-hover: $color-accent-light;
+$color-button-accent-hover-text: $color-accent-text;
 
 /* Other */
 

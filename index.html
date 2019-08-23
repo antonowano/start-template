@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Название сайта</title>
+    <link rel="stylesheet" href="/css/callback-modal.css">
     <link rel="stylesheet" href="/css/template.css">
 </head>
 <body>
@@ -14,9 +15,31 @@
 
     <footer></footer>
 
-    <div hidden></div>
-    
+    <div hidden>
+        <div class="popup-callback callback-modal callback-modal-toggle">
+            <div class="callback-modal__headline">Оставить заявку на обратный звонок</div>
+            <form action="" method="POST" class="form-submit-toggle">
+                <input name="head" type="hidden" value="Заявка на обратный звонок">
+                <div class="callback-modal__input"><input name="Имя" type="text" placeholder="Имя" required></div>
+                <div class="callback-modal__input"><input name="Электронная_почта" type="email" placeholder="Электронная почта" required></div>
+                <div class="callback-modal__input"><input class="js-mask-tel-rus" name="Номер_телефона" type="tel" placeholder="Номер телефона" required></div>
+                <div class="callback-modal__input c-checkbox">
+                    <input type="checkbox" name="policy" id="policy1" required>
+                    <label for="policy1">
+                        Даю <a href="#" target="_blank">Согласие</a> на обработку моих персональных данных, 
+                        с условиями <a href="#" target="_blank">Политики</a> ознакомлен.
+                    </label>
+                </div>
+                <div class="callback-modal__submit">
+                    <button type="submit">Отправить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
     <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/slick-carousel/slick/slick.min.js"></script>
+    <script src="/node_modules/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
     <script src="/node_modules/inputmask/dist/min/jquery.inputmask.bundle.min.js"></script>
     <script src="/js/main.js"></script>
 </body>

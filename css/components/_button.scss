@@ -1,0 +1,29 @@
+%button {
+    display: flex;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    transition: $transition;
+    align-items: center;
+    background: none;
+}
+
+.button-accent {
+    @extend %button;
+    background: $color-button-accent;
+    color: $color-button-accent-text;
+    &:hover, &:focus {
+        background: $color-button-accent-hover;
+        color: $color-button-accent-hover-text;
+    }
+}
+
+.button-primary {
+    @extend %button;
+    background: $color-button-primary;
+    color: $color-button-primary-text;
+    &:hover, &:focus {
+        background: $color-button-primary-hover;
+        color: $color-button-primary-hover-text;
+    }
+}
